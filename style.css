@@ -1,0 +1,78 @@
+body {
+    background-color: #DCDCDC;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+  }
+
+.container {
+    margin: 12em;
+    padding: 6em;
+    border-radius: 20px;
+    background-color: white;
+    }
+
+#seiteListe .container {
+    margin: 1em;
+    padding: 8em;
+    border-radius: 10px;
+    }
+
+#login-button {
+    float: left;
+  }
+
+#login-button input{
+    background-color: #F08080;
+    margin:2em;
+    width: 100%;
+    border-radius: 3px;
+  }
+button:hover {
+    background-color: rgb(223, 207, 210);
+  }
+
+  tr, td {
+    border-top: solid;
+    border-bottom: solid;
+    border-color: lightgrey;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    empty-cells: hide;
+  }
+
+th {
+    padding: 0.5em;
+    color: #708090;
+  }
+
+.button-container {
+    float: left;
+    flex-flow: column;
+}
+
+button {
+    background-color: #F08080;
+    margin:2em;
+    width: 100%;
+    border-radius: 3px;
+}
+
+#zurueck-button {
+    background-color: #ccced1;
+    margin:2em;
+    width: 10em;
+    border-radius: 3px;
+}
+
+#submit-button, #login-button {
+    background-color: #F08080;
+    margin:2em;
+    width: 8em;
+    border-radius: 3px;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Neueingabe</title>
+      <link href="style.css" rel="stylesheet">
+    </head>
+<body>
+  <div class="container">
+    <h1>Wähle deine Aktivität aus</h1>
+    <form method="get">
+      <label for="aktivität">Art der Aktivität:</label>
+      <select id="aktivität" name="aktivität" required>
+        <option>Wanderung</option>
+        <option>Fahrrad-Tour</option>
+        <option>Site-Seeing-Bustour</option>
+      </select>
+      <br>
+      <label for="dauer">Dauer:</label>
+      <select id="dauer" name="dauer" required>
+        <option>1 Stunde</option>
+        <option>2 Stunden</option>
+        <option>3 Stunden</option>
+        <option>4 Stunden</option>
+        <option>5 Stunden</option>
+      </select>
+      <br>
+      <br>
+      <span>Mit Führer?</span>
+      <input id="mitFuehrer" type="radio" value="ja" name="fuehrer">
+      <label for="mitFuehrer">Ja</label>
+      <input id="ohneFuehrer" type="radio" value="nein" name="fuehrer">
+      <label for="ohneFuehrer">Nein</label>
+      <br>
+      <br>
+      <input id="mitMittagessen" type="radio" value="mittagessen" name="mittagessen">
+      <label for="mitMittagessen">Mit Mittagessen</label>
+      <input id="kMittagessen" type="radio" value="keinMittagessen" name="mittagessen">
+      <label for="kMittagessen">Kein Mittagessen</label>
+      <br>
+      <br>
+      <label for="laenge">Falls du eine Wanderung oder Fahrrad-Tour ausgewählt hast:</label>
+      <input id="laenge" type="number" name="laenge" min="1" max="50">
+      <span>km</span>
+      <br>
+      <br>
+      <div class="button-container">
+      <button id="submit-button">Abschicken</button>
+      <button id="zurueck-button" type="button"><a href="liste.html">Zurück</a></button>
+      </div>
+    </form>
+    <div>
+    </body>
+  </body>
+</html>
